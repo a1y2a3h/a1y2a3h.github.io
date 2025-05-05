@@ -1,0 +1,60 @@
+nav ul {
+    display: flex;
+    list-style: none; /* تشيلي النقاط السوداء */
+    gap: 20px; /* مسافة بين العناصر */
+    padding: 0; /* عشان تشيلي الفراغ */
+    margin: 0;
+  }
+  
+  nav a {
+    color: #fff; /* لون النص */
+    text-decoration: none;
+    align-items: center; /* توسيط العناصر */
+    display: flex; /* عشان توسيط العناصر */
+    font-size: 1.2em; /* حجم الخط */
+    padding: 12px 25px; /* مسافة من كل الجهات */
+    border-radius: 8px; /* زوايا مدورة أكثر */
+    transition: all 0.3s ease; /* تأثير سلس عند التمرير */
+    background-color: #4CAF50; /* لون الخلفية */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* ظل خفيف */
+  }
+
+  nav a:hover {
+    background-color: #3e8e41; /* لون عند التمرير */
+    transform: scale(1.05); /* تكبير بسيط عند التمرير */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* زيادة الظل */
+  }
+body {
+    font-family: Arial, sans-serif; /* نوع الخط */
+    background-color: #8bd1cc; /* لون الخلفية */
+    margin: 0; /* عشان تشيلي الفراغ */
+    padding: 0; /* عشان تشيلي الفراغ */
+    color: #333; /* لون النص */
+    
+  }
+  
+  header {
+    background-color: #b2bdc1; /* لون الخلفية */
+    color: white; /* لون النص */
+    padding: 10px 0; /* مسافة من فوق وتحت */
+    text-align: center; /* توسيط النص */
+  }
+#Tic {
+color: black;
+text-decoration : none; /* تشيلي الخط تحت النص */
+  }
+  h1 {
+    text-align: center; /* توسيط العنوان */
+    color: #333; /* لون النص */
+    font-size: 2.5em; /* حجم الخط */
+  }
+  h2 {
+    text-align: center; /* توسيط العنوان */
+    color: #333; /* لون النص */
+    font-size: 2em; /* حجم الخط */
+  }
+  main {
+    padding: 20px; /* مسافة من كل الجهات */
+    max-width: 800px; /* عرض الصفحة */
+    margin: 0 auto; /* توسيط الصفحة */  
+  }
